@@ -1,10 +1,13 @@
-
-import './App.css';
+import Login from "./components/Login/Login";
+import HomeNavigator from "./Navigator/HomeNavigator";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Routers</h1>
+    <div>
+
+      <div>
+        <HomeNavigator />
+      </div>
     </div>
   );
 }
