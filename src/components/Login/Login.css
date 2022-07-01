@@ -1,12 +1,14 @@
 .form {
-  width: 50%;  
+ max-width: 30rem;  
   margin: 2rem auto;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.26);
   padding: 4rem;
   border-radius: 5px;
+  width: 60%;
 }
+
 .form-control {
-    margin: 0.5rem auto;
+  margin: 0.5rem auto;
 }
 .form-control input {
   display: block;
@@ -17,18 +19,16 @@
   border-radius: 5px;
   border: 1px solid gray;
 }
-.button{
-    border: 1px solid gray;
-    width: 30%;
-    padding: 0.5rem;
-    border-radius: 5px;
-    background-color: gray;
-    color: white;
-    text-align: center;
-    margin: auto;
-
+.button {
+  border: 1px solid gray;
+  width: 30%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  margin: auto;
 }
-.button .link{
-    color: white;
-    
+.button .link {
+  color: white;
 }
